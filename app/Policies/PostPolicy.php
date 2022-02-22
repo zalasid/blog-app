@@ -32,7 +32,7 @@ class PostPolicy
      */
     public function view(User $user, Post $post)
     {
-        return (!empty(Auth::user()) || $post->show_publicly)
+        return (!empty(Auth::user()) || $post->show_publicly == 1)
         ? Response::allow()
         : Response::deny('You are not an author of this post');
     }

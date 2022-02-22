@@ -23,7 +23,7 @@ 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
 
 - change migration for unique title if remaining @
 - function documentation
-- active profile after mail verify
+- active profile after mail verify@
 
 
 

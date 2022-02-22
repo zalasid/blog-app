@@ -7,6 +7,7 @@ use App\Models\Post;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\Repositories\PostRepository;
+use App\Http\Requests\PostRequestValidate;
 
 class GuestController extends Controller
 {
@@ -33,7 +34,7 @@ class GuestController extends Controller
         }
     }
 
-    public function show(Post $post)
+    public function show(PostRequestValidate $request, Post $post)
     {
         try {
             return view('guest.post-view', compact('post'));
