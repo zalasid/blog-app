@@ -1,0 +1,53 @@
+todo
+---------
+
+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
+
+
+- git@
+- migrations@
+- ui for admin and user@
+- user add post@
+
+- login with email or phone@
+
+- Admin post module@
+- Admin user module@
+
+- upload blog image@
+- POST CREATING with same title@
+- check validation rules@
+- pagination@
+
+- User profile to change photo, name and password@
+
+- change migration for unique title if remaining @
+- function documentation
+- active profile after mail verify
+
+
+
+-------------------------
+- Post/User order should be descending
+- Guest 
+    - home page@
+        - Add pagination
+- Auth 
+    - home page@
+        - Add card layout
+        - add pagination
+    - detail page@
+        - add card layout
+    - my blogs@
+        - add card layout
+        - add pagination
+- Admin
+    - Dashboard
+    - Posts
+        - add pagination@
+        - create proper table view@
+        - create proper view page@
+    - User
+        - add pagination@
+        - create proper table view@
+        - create proper view page@
